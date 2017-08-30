@@ -25,6 +25,7 @@ gems:
 - jekyll-redirect-from
 - jekyll-feed
 - jemoji
+- jekyll/tagging
 
 # 3. Gem settings
 paginate: 2 # jekyll-paginate > items per page
@@ -46,6 +47,10 @@ sass:
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: EST # Timezone for blog posts and alike
+
+# Jekyll Tagging plugin settings
+tag_page_layout: tag_page
+tag_page_dir: tag
 
 # 5. Collections
 collections:
@@ -90,6 +95,7 @@ avatarurl: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # 
 # 8. Site navigation
 navigation_header:
   Home: /
+  Projects: /projects/
   Elements: /elements/
   Blog: /blog/
   Categories: /categories/

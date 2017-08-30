@@ -15,5 +15,6 @@ group :jekyll_plugins do
   gem "jekyll-redirect-from"
   gem "jekyll-feed"
   gem "jemoji"
+  gem "jekyll-tagging"
 #  gem "github-pages"
 end
