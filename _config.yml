@@ -77,11 +77,11 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "Alembic" # Site name or title, also used in jekyll-seo-tag
+title: "Standard Deviation" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
+description: "Standard Deviation is where I gather my thoughts and pieces of work that could benefit a broader audience one way or another. You will find academic projects, thoughts about new technologies, software tutorials as well as my resume." # Site description and default description, also used in jekyll-seo-tag
 url: "https://seb.mamessier.com" # Site url, also used in jekyll-seo-tag
-baseurl: "/blog2"
+baseurl: ""
 repo: "https://github.com/smamessier/blog2"
 email: "s.mamessier@gmail.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
@@ -94,10 +94,9 @@ navigation_header:
   Blog: /blog/
   Categories: /categories/
   Search: /search/
-  Fork Alembic: https://github.com/daviddarnes/alembic
 
 navigation_footer:
-  Created by David Darnes: https://darn.es
+  Created by Sebastien Mamessier: https://seb.mamessier.com
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/DavidDarnes
