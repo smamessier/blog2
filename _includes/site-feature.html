@@ -1,5 +1,15 @@
-{% assign feature_text = page.feature_text %}
-{% assign feature_image = page.feature_image %}
+{% if override_feature_text %}
+  {% assign feature_text = override_feature_text %}
+{% else %}
+  {% assign feature_text = page.feature_text %}
+{% endif %}
+
+{% if override_feature_image %}
+  {% assign feature_image = override_feature_image %}
+{% else %}
+  {% assign feature_image = page.feature_image %}
+{% endif %}
+
 {% if page.collectionpage %}
   {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
   {% assign feature_text = collectiondata.feature_text %}

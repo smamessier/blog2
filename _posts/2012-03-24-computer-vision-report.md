@@ -2,15 +2,14 @@
 layout: post
 title: Computer Vision – Personal thoughts
 date: '2012-03-24 18:17:00'
-tags:
-- projects-edu
+tags: projects-edu
 ---
 
 Being part of the following class projects motivated me to write a couple of thoughts about Computer Vision and my understanding of it coming with an Engineering background.
 
 Projects
 
-* 3D Body Scanner 
+* 3D Body Scanner
 * Smartphone app for safe driving
 * Compact database of line drawings
 
@@ -30,12 +29,12 @@ Before taking this class, it wasn’t clear to me why/when or how the human and 
 
 My first project took advantage of the Kinect 3d sensor to perform unsupervised 3d body scans. One of the most challenging part was non-rigid registration of 3d point clouds. One of the papers I read about it was Anguelov’s “The correlated correspondence algorithm for unsupervised registration of nonrigid surface”. It was the first time I read about bayesian probabilities applied to computer vision problems. I took me a couple of days to be able to understand it completely but it was worth a shot. It led me to understand MRFs and explore belief propagation algorithms and more generally structured model-based methods. Before that I was mostly used to deterministic methods.
 
-<iframe src = "/ViewerJS/#/docs/gatech/7495/report1.pdf" width='100%' height='600' allowfullscreen webkitallowfullscreen></iframe> 
+<iframe src="https://drive.google.com/file/d/0B4oD9uzoUfEGZ0xTLVJJMGlVMXM/preview" width="100%" height="850"></iframe>
 
 ##### Recognition paradigm
 
 Object recognition is one of these computer vision problems where the human is still performing much better than the machine. State-of-the art research seems to tend to the following paradigm:
- 
+
 -	Gradient-based descriptors
 -	Structured dataset (like felzenszwalb’s part-based recognition)
 -	Deterministic or probabilistic decision-making.
@@ -47,21 +46,18 @@ Object and activity recognition seemed to me to be the most challenging part of 
 I did Project number 3 about variations around Microsoft Shadow draw project with Mark Luffel in order to reduce memory load and improve performance for mobility purposes. So we thought about adapting Felzenzwalb’s part-based approach to reduce the size of our dataset. Several hours of brainstorming later and we we’re talking about object recognition instead of patch retrieval. I mentioned that to say that object recognition would be a panacea to many many problems.
  When it didn’t bring a general solution to this challenging problem, CS 7495 had the advantage to explore state-of-the-art research about it and give us the necessary insight to go any further into the subject.
 
-<iframe src = "/ViewerJS/#/docs/gatech/7495/report3.pdf" width='100%' height='600' allowfullscreen webkitallowfullscreen></iframe> 
+<iframe src="https://drive.google.com/file/d/0B4oD9uzoUfEGNlliWjZLc0U1cWM/preview" width="100%" height="850"></iframe>
 
-#####2d / 3d sensors 
+#####2d / 3d sensors
 
 
-Lectures about stereoscopy, range sensors and the first project I did made me think about the future of sensors for both industrial and general public purposes. The current 3d adaptation of Titanic shows that you don’t really need range sensors to feel the depth, you can actually close one eye without making a big difference. The human brain is able to recognize a rigged body without using range data. 
+Lectures about stereoscopy, range sensors and the first project I did made me think about the future of sensors for both industrial and general public purposes. The current 3d adaptation of Titanic shows that you don’t really need range sensors to feel the depth, you can actually close one eye without making a big difference. The human brain is able to recognize a rigged body without using range data.
 So are 3d sensors (stereoscopy) the future of computer vision? I don’t think so. In fact, in high demanding industries, other sensors like LIDARs do a better job. Combining information from accurate range sensors and visual images into RGBZ point clouds (as it has been done with Kinect) could help computer vision to give meaning to images. Since WillowGarage is taking care of the development of PCL (Point Cloud library), we can imagine that kinect-like range sensors will be part of future robot’s battery of sensors. Does range information really helps to understand a picture? For example, it could clearly help segmentation and add constraints to penalty-based probabilistic models. Does the human brain really use 3d information for object recognition for instance? The answer might be ‘no’. Indeed one-eyed persons still perform well at it.
-Project 2 enabled me to spend time on an idea I had about implementing a safe driving app for Iphone including robust detection, features tracing and classifier-based vehicle recognition. Exploring the literature about similar professional projects, I came up with the following question : “Is it more important to refine data accuracy by improving sensors, or to search for new ways of processing data for intelligent and robust detections?”. The arrival on the market of smartphones with poor sensors and decent computational capability would promote the second one, while professional demanding applications will more likely use priceless sensors and focus a bit less on robustness. At the end, robust clever algorithms could support high quality sensors and lead to highly efficient vision systems. 
+Project 2 enabled me to spend time on an idea I had about implementing a safe driving app for Iphone including robust detection, features tracing and classifier-based vehicle recognition. Exploring the literature about similar professional projects, I came up with the following question : “Is it more important to refine data accuracy by improving sensors, or to search for new ways of processing data for intelligent and robust detections?”. The arrival on the market of smartphones with poor sensors and decent computational capability would promote the second one, while professional demanding applications will more likely use priceless sensors and focus a bit less on robustness. At the end, robust clever algorithms could support high quality sensors and lead to highly efficient vision systems.
 
-<iframe src = "/ViewerJS/#/docs/gatech/7495/report2.pdf" width='100%' height='600' allowfullscreen webkitallowfullscreen></iframe> 
+<iframe src="https://drive.google.com/file/d/0B4oD9uzoUfEGQlR5X05xcm84dXc/preview" width="100%" height="850"></iframe>
 
 #####Computer vision, robotics
 
-As its name implies, Computer Vision focuses on the tiny visible part of the electromagnetic spectrum. Is equipping robots with eyes really necessary? Robots developed for performing industrial specific tasks don’t always need vision. Moreover, lots of systems that use vision use it because it’s the only or cheapest sensor available. So will vision really matter in a future with cheaper and better quality sensors? In fact, CS 7495 made ask myself this question and brought answers too.  Even if lots of papers design ad-hoc solutions for specific issues, general principles emerge from computer vision research about machine understanding, learning and interpreting. 
-I’m an aerospace guy, but I felt very confortable taking this class. Every week it was a great pleasure to listen to Frank Dellaert and all other lecturers. Actually I’d like to combine my engineering skills, my enthusiasm for computer science and fascination for robots by following a PhD in Robots and Intelligent Machines. 
-
-
-
+As its name implies, Computer Vision focuses on the tiny visible part of the electromagnetic spectrum. Is equipping robots with eyes really necessary? Robots developed for performing industrial specific tasks don’t always need vision. Moreover, lots of systems that use vision use it because it’s the only or cheapest sensor available. So will vision really matter in a future with cheaper and better quality sensors? In fact, CS 7495 made ask myself this question and brought answers too.  Even if lots of papers design ad-hoc solutions for specific issues, general principles emerge from computer vision research about machine understanding, learning and interpreting.
+I’m an aerospace guy, but I felt very comfortable taking this class. Every week it was a great pleasure to listen to Frank Dellaert and all other lecturers. Actually I’d like to combine my engineering skills, my enthusiasm for computer science and fascination for robots by following a PhD in Robots and Intelligent Machines.

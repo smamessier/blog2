@@ -15,20 +15,22 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - vendor
+- content
 
 # 2. Installed Gems
-gems:
+plugins:
 - jekyll-sitemap
 - jekyll-mentions
-- jekyll-paginate
+#- jekyll-paginate
 - jekyll-seo-tag
 - jekyll-redirect-from
 - jekyll-feed
 - jemoji
 - jekyll/tagging
+- octopress-paginate
 
 # 3. Gem settings
-paginate: 2 # jekyll-paginate > items per page
+paginate: 5 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 twitter:
@@ -51,6 +53,13 @@ timezone: EST # Timezone for blog posts and alike
 # Jekyll Tagging plugin settings
 tag_page_layout: tag_page
 tag_page_dir: tag
+tag_info:
+  out-of-the-lab:
+     image: "https://unsplash.it/1200/400?image=1040"
+  projects-edu:
+    title: "Projects"
+    description: "Academic projects @Gatech, @Supaero"
+    image: "https://unsplash.it/1200/400?image=24"
 
 # 5. Collections
 collections:
@@ -85,7 +94,7 @@ lang: en-GB # Set the site language
 title: "Standard Deviation" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Standard Deviation is where I gather my thoughts and pieces of work that could benefit a broader audience one way or another. You will find academic projects, thoughts about new technologies, software tutorials as well as my resume." # Site description and default description, also used in jekyll-seo-tag
-url: "https://seb.mamessier.com" # Site url, also used in jekyll-seo-tag
+url: "http://seb.mamessier.com" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/smamessier/blog2"
 email: "s.mamessier@gmail.com"
@@ -94,15 +103,18 @@ avatarurl: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # 
 
 # 8. Site navigation
 navigation_header:
-  Home: /
-  Projects: /projects/
-  Elements: /elements/
-  Blog: /blog/
-  Categories: /categories/
-  Search: /search/
+  Blog: /
+  CV: /cv
+  Projects: /tag/projects-edu
+  Tutorials: /tag/dev-tutorials
+  Out of the Lab: /tag/out-of-the-lab
+  #Elements: /elements/
+  #Blog: /blog/
+  #Categories: /categories/
+  #Search: /search/
 
 navigation_footer:
-  Created by Sebastien Mamessier: https://seb.mamessier.com
+  Created by Sebastien Mamessier: http://seb.mamessier.com
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/DavidDarnes

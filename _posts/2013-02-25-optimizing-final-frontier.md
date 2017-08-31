@@ -11,6 +11,6 @@ The underlying algorithm is now powering the AI of the iOS game I created [Astro
 
 Here is a screenshot and the project report in question below. 
 
-![Astro Fight](/content/images/2016/05/screen568x568.jpeg)
+![Astro Fight]({{ site.url }}/assets/images/2016/05/screen568x568.jpeg)
 
 <iframe src = "/ViewerJS/#/docs/gatech/AI/report2.pdf" width='100%' height='600' allowfullscreen webkitallowfullscreen></iframe> 
