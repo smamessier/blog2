@@ -31,7 +31,7 @@ plugins:
 
 # 3. Gem settings
 paginate: 5 # jekyll-paginate > items per page
-paginate_path: blog/page:num # jekyll-paginate > blog page
+paginate_path: all/page:num # jekyll-paginate > blog page
 jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 twitter:
   username: smamessier# jekyll-seo-tag > Owners twitter username
@@ -57,9 +57,11 @@ tag_info:
   out-of-the-lab:
      image: "https://unsplash.it/1200/400?image=1040"
   projects-edu:
-    title: "Projects"
-    description: "Academic projects @Gatech, @Supaero"
+    title: "Academic Projects"
     image: "https://unsplash.it/1200/400?image=24"
+  dev-tutorials:
+    title: "Tutorials"
+    image: "https://unsplash.it/1200/400?image=885&gravity=north"
 
 # 5. Collections
 collections:
@@ -91,20 +93,20 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "Standard Deviation" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logo.svg" # Site logo, also used in jekyll-seo-tag
+title: "Sebastien Mamessier" # Site name or title, also used in jekyll-seo-tag
+logo: "http://www.gravatar.com/avatar/edfba33c46c3f3e47ee9f6f35894ef2c" # Site logo, also used in jekyll-seo-tag
 description: "Standard Deviation is where I gather my thoughts and pieces of work that could benefit a broader audience one way or another. You will find academic projects, thoughts about new technologies, software tutorials as well as my resume." # Site description and default description, also used in jekyll-seo-tag
 url: "http://seb.mamessier.com" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/smamessier/blog2"
 email: "s.mamessier@gmail.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
-avatarurl: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
+avatarurl: "http://www.gravatar.com/avatar/edfba33c46c3f3e47ee9f6f35894ef2c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 
 # 8. Site navigation
 navigation_header:
-  Blog: /
-  CV: /cv
+  #Blog: /blog-posts
+  CV: /
   Projects: /tag/projects-edu
   Tutorials: /tag/dev-tutorials
   Out of the Lab: /tag/out-of-the-lab
@@ -123,11 +125,11 @@ social_links: # Appears in sidebar. Set the urls then uncomment and comment out 
   RSS: /feed.xml
 
 sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
-  Twitter: "#1DA1F2"
-  facebook: "#3B5998"
-  Google+: "#DC4E41"
+  #Twitter: "#1DA1F2"
+  #facebook: "#3B5998"
+  #Google+: "#DC4E41"
   # Pinterest: "#BD081C"
-  # LinkedIn: "#0077B5"
+  LinkedIn: "#0077B5"
   # tumblr: "#36465D"
   # Reddit: "#FF4500"
   # Hacker News: "#ff6600"

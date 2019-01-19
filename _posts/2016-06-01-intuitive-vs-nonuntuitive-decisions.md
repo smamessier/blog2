@@ -3,7 +3,7 @@ layout: post
 title: Intuitive vs Nonintuitive decision making
 date: '2016-06-01 15:52:23'
 tags:
-- blog
+- blog-post 
 ---
 
 This blog post summarizes [Simmons and Nelson' study](http://psycnet.apa.org/journals/xge/135/3/409/) about how people incorporate constraining/contradicting information into their initial intuitive thought when asked to make a decision. It was written in the context of the `Intro to Cognitive Science` class.
