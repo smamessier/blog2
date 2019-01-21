@@ -94,14 +94,14 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Sebastien Mamessier" # Site name or title, also used in jekyll-seo-tag
-logo: "http://www.gravatar.com/avatar/edfba33c46c3f3e47ee9f6f35894ef2c" # Site logo, also used in jekyll-seo-tag
+logo: "https://www.gravatar.com/avatar/edfba33c46c3f3e47ee9f6f35894ef2c" # Site logo, also used in jekyll-seo-tag
 description: "Standard Deviation is where I gather my thoughts and pieces of work that could benefit a broader audience one way or another. You will find academic projects, thoughts about new technologies, software tutorials as well as my resume." # Site description and default description, also used in jekyll-seo-tag
-url: "http://seb.mamessier.com" # Site url, also used in jekyll-seo-tag
+url: "https://seb.mamessier.com" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/smamessier/blog2"
 email: "s.mamessier@gmail.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
-avatarurl: "http://www.gravatar.com/avatar/edfba33c46c3f3e47ee9f6f35894ef2c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
+avatarurl: "https://www.gravatar.com/avatar/edfba33c46c3f3e47ee9f6f35894ef2c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 
 # 8. Site navigation
 navigation_header:
@@ -116,7 +116,7 @@ navigation_header:
   #Search: /search/
 
 navigation_footer:
-  Created by Sebastien Mamessier: http://seb.mamessier.com
+  Created by Sebastien Mamessier: https://seb.mamessier.com
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/smamessier
